@@ -1,0 +1,42 @@
+* {
+    font-family: Arial;
+}
+
+.background {
+    background: linear-gradient(0deg, rgba(68, 64, 111, 1) 0%, rgba(33, 30, 66, 1) 100%);
+    min-height: 100vh;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    height: auto;
+    background-color: rgb(34, 31, 68);
+    border-bottom: 1px solid rgb(197, 88, 88);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.menu>ul>li>a:hover {
+    color: wheat;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.main {
+    color: white;
+}

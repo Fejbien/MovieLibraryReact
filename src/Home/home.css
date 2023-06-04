@@ -1,0 +1,77 @@
+.home{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchBar{
+    width: 30vw;
+    border: 3px solid aqua;
+    padding: 10px 10px 10px 20px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: larger;
+}
+
+.searchButton{
+    width: auto;
+    background-color: rgb(34, 31, 68);
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 15px 40px 15px 40px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.searchButton:hover{
+    color: red;
+    border: 3px solid red;
+}
+
+.moviesList{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movieCard{
+    text-align: center;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    height: 650px;
+    width: 400px;
+}
+
+.movieCard > h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.movieCard > img{
+    display: flex;
+    flex-grow: 1;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 25px;
+}
+
+.movieCard:hover{
+    border: 1px solid red;
+}
